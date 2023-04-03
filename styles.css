@@ -51,3 +51,131 @@ header {
     width: 250px;
     border-radius: 50%;
 }
+
+.blue_mid {
+    background-color: rgb(194, 244, 248);
+    height: 300px;
+}
+
+.blue_mid .navmid {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-inline: 8px;
+    padding-inline: 50px;
+}
+
+.navmid a {
+    text-decoration: none;
+    color: rgb(23, 201, 250);
+    vertical-align: center;
+}
+
+.blue_mid .middy {
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.middy .mid {
+    background-color: aliceblue;
+    padding: 10px;
+    width: 450px;
+    margin: 20px;
+}
+
+.mid h1,pre,p {
+    padding: 10px;
+}
+
+.data .img_datamain > img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.data {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.datamain {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid silver;
+    margin: 10px;
+    padding: 10px;
+}
+
+.data_datamain {
+    display: flex;
+    flex-flow: column;
+}
+
+.data_datamain h2 {
+    padding: 10px;
+}
+
+.data_datamain .underimg {
+    display: flex;
+}
+
+.underimg .undernum {
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.underimg .behindnum {
+    color: rgb(157, 157, 157);
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    margin-top: 80px;
+    align-items: center;
+}
+
+footer .icon {
+    padding: 10px;
+    margin-inline: 5px;
+}
+
+footer .icon a {
+    font-size: 35px;
+    margin-inline: 15px;
+    color: black;
+}
+
+footer p {
+    margin-bottom: 40px;
+}
+
+/* blog */
+
+.blog {
+    margin-left: 15%;
+    margin-bottom: 25px;
+}
+
+.blogmid {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width : 500px) {
+    
+}
